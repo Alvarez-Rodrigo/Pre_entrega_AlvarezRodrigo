@@ -4,7 +4,7 @@
     box-sizing: border-box;
     background-color: rgb(222, 221, 221);
 }
-h1, h2, h3{
+h1, h2, h3, h4{
     font-family: 'Bebas Neue', 'cursive';
     text-align: center;
 
@@ -12,7 +12,7 @@ h1, h2, h3{
 .navbar{
     width: 100%;
     background-color: rgb(150, 148, 148);
-    padding: 10px 20px;
+    padding: 10px 5px;
     position: sticky;
     top: 0;
 }
@@ -262,7 +262,7 @@ img{
 /*medias telefono*/
 @media (min-width: 320px) and (max-width:480px){
     .navbar{/*color de prueba*/
-        background-color: red;/*Colores fuertes para ver que funcionen las propiedades*/
+        background-color: rgb(150, 148, 148);/*Colores fuertes para ver que funcionen las propiedades*/
     }
     .navbar ul{
         display: none;
@@ -272,7 +272,7 @@ img{
         width: 100%;
         height: 150px;
         flex-direction: column;
-        background-color: blue;/*Colores fuertes para ver que funcionen las propiedades*/
+        background-color: rgb(150, 148, 148);/*Colores fuertes para ver que funcionen las propiedades*/
         justify-content: space-around;
     }
     #check-menu:checked ~ul{
@@ -362,7 +362,7 @@ img{
 /*medidas tablet*/
 @media (min-width: 481px) and (max-width: 600px){
     .navbar{
-        background-color: rgb(85, 255, 0);/*color de prueba*/
+        background-color: rgb(150, 148, 148);/*color de prueba*/
     }
     .navbar ul{
         display: none;
@@ -370,9 +370,9 @@ img{
         height: 30vh;
         top: 50px;
         width: 100%;
-        height: 150px;
+        height: 50px;
         flex-direction: column;
-        background-color: blue;/*Colores fuertes para ver que funcionen las propiedades*/
+        background-color: rgb(150, 148, 148);/*Colores fuertes para ver que funcionen las propiedades*/
         justify-content: space-around;
     }
     #check-menu:checked ~ul{
@@ -380,7 +380,7 @@ img{
     }
     label.menu{
         display: block;
-        font-size: 1.5em;
+        font-size: 1.7em;
         color: azure;
         cursor: pointer;
     }
@@ -444,7 +444,7 @@ img{
 /*medias pantallas*/
 @media (min-width: 601px) and (max-width: 1024px){
     .navbar{
-        background-color: rgb(123, 0, 255);/*color de prueba*/
+        background-color: rgb(150, 148, 148);/*color de prueba*/
     }
     .grid-index{
         display: grid;
