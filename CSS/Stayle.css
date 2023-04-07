@@ -208,9 +208,9 @@ img{
 /*Estilo Contacto*/
 .contacto{
     background:rgb(151, 158, 164) ;
-    width: 600px;
+    /*width: 600px;*/
     height: 400px;
-    overflow: scroll;
+    /*overflow: scroll;*/
     padding: 20px;
     border: 1px solid;
 }
@@ -218,12 +218,22 @@ img{
     font-size: 1.3em;
     margin-bottom: 20px;
 }
-.formulario{
+/*.formulario{
     width: 100%;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 5px;
+}*/
+form{
+    width: 100%;
+    border-radius: 4px;
+    padding: 20px;
 }
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 .contenedor {
     align-items:stretch;
     font-size: 15px;
@@ -239,7 +249,7 @@ img{
 }
 .grid-contacto{
     display: grid;
-    grid-template-columns: 10% 50% 40%;
+    grid-template-columns: 25% 50% 25%;
     grid-template-rows: 1fr 2fr 1fr;
     grid-template-areas: 
     ". titulo6 ."
@@ -342,7 +352,7 @@ img{
     }
     .grid-contacto{
         display: grid;
-        grid-template-columns: 10% 50% 40%;
+        grid-template-columns: 25% 50% 25%;
         grid-template-rows: 1fr 2fr 1fr;
         grid-template-areas: 
         ". titulo6 ."
@@ -440,6 +450,24 @@ img{
         ". titulo-auto ."
         "footer-doc footer-doc footer-doc";
     }
+    .grid-contacto{
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-areas: 
+        ". titulo6 ."
+        ". contacto ."
+        "footer-con footer-con footer-con";
+    }
+    .titulo6{
+        grid-area: titulo6;
+    }
+    .contacto{
+        grid-area: contacto;
+    }
+    .footer-con{
+        grid-area: footer-con;
+    }
 }
 /*medias pantallas*/
 @media (min-width: 601px) and (max-width: 1024px){
@@ -489,5 +517,23 @@ img{
         ". cedula ."
         ". titulo-auto ."
         "footer-doc footer-doc footer-doc";
+    }
+    .grid-contacto{
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-areas: 
+        ". titulo6 ."
+        ". contacto ."
+        "footer-con footer-con footer-con";
+    }
+    .titulo6{
+        grid-area: titulo6;
+    }
+    .contacto{
+        grid-area: contacto;
+    }
+    .footer-con{
+        grid-area: footer-con;
     }
 }

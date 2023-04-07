@@ -27,27 +27,21 @@
     <main class="grid-contacto">
         <section class="titulo6">
             <h1 >Contacto</h1>
+            <p>
+                Por dudas o consultasa dejanos comentario, en la brevedas nos estaremos comunicando. 
+            </p>
         </section>
         <section class="contacto">
             <h2>
                 Deja tu comentario
             </h2>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Coloca tu email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label">coloca tu nombre</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="nombre">
-            </div>
-            <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label">Coloca tu apellido</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Apellido">
-              </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+            <form action="">
+                <input type="text" name="Nombre" placeholder="Nombre">
+                <input type="mail" name="Correo" placeholder="Correo">
+                <input type="text" name="telefono" placeholder="telefono">
+                <textarea name="mensaje" placeholder="Deja tu mensaje"></textarea>
+                <input type="button" value="Enviar" id="boton">
+            </form>
         </section>
        <!-- <section class="img-contacto">
             <img clas="img-con" src="../assets/img/consulta.jpg" alt="">
