@@ -277,10 +277,10 @@ input, textarea{
     .navbar ul{
         display: none;
         position:absolute;
-        height: 30vh;
-        top: 50px;
+        height: 25vh;
+        top: 40px;
         width: 100%;
-        height: 150px;
+        height: 50px;
         flex-direction: column;
         background-color: rgb(150, 148, 148);/*Colores fuertes para ver que funcionen las propiedades*/
         justify-content: space-around;
