@@ -9,7 +9,7 @@ h1, h2, h3, h4{
     text-align: center;
 
 }
-.navbar{
+.barra{
     width: 100%;
     background-color: rgb(150, 148, 148);
     padding: 10px 5px;
@@ -278,10 +278,10 @@ input, textarea{
 /*Media queries*/
 /*medias telefono*/
 @media (min-width: 320px) and (max-width:480px){
-    .navbar{/*color de prueba*/
+    .barra{/*color de prueba*/
         background-color: rgb(150, 148, 148);/*Colores fuertes para ver que funcionen las propiedades*/
     }
-    .navbar ul{
+    .barra ul{
         display: none;
         position:absolute;
         height: 25vh;
@@ -291,6 +291,9 @@ input, textarea{
         flex-direction: column;
         background-color: rgb(150, 148, 148);/*Colores fuertes para ver que funcionen las propiedades*/
         justify-content: space-around;
+    }
+    ul li a{
+        font-size: 12px;
     }
     #check-menu:checked ~ul{
         display: block;
@@ -379,10 +382,10 @@ input, textarea{
 }
 /*medidas tablet*/
 @media (min-width: 481px) and (max-width: 600px){
-    .navbar{
+    .barra{
         background-color: rgb(150, 148, 148);/*color de prueba*/
     }
-    .navbar ul{
+    .barra ul{
         display: none;
         position:absolute;
         height: 30vh;
@@ -480,7 +483,7 @@ input, textarea{
 }
 /*medias pantallas*/
 @media (min-width: 601px) and (max-width: 1024px){
-    .navbar{
+    .barra{
         background-color: rgb(150, 148, 148);/*color de prueba*/
     }
     .grid-index{
