@@ -37,7 +37,9 @@ nav .navbar .superior ul a {
 nav #check-menu, nav label.menu {
   display: none;
 }
-
+ul{
+  background-color: rgb(150, 148, 148);
+}
 p a:hover {
   font-size: 15px;
 }
