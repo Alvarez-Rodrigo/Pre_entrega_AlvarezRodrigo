@@ -18,6 +18,7 @@ h1, h2, h3, h4{
 }
 .superior{
 align-items: center;
+background-color: rgb(150, 148, 148);
 }
 .barra-superior{
     display: inline-block;
@@ -34,6 +35,12 @@ nav{
 }
 a {
     text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+ul{
+    background-color: rgb(150, 148, 148);
 }
 ul a{
     background-color: rgb(150, 148, 148);
@@ -292,6 +299,7 @@ input, textarea{
         display: block;
         font-size: 1.5em;
         color: azure;
+        background-color: rgb(150, 148, 148);
         cursor: pointer;
     }
     .barra-inferior{
@@ -385,6 +393,7 @@ input, textarea{
         background-color: rgb(150, 148, 148);/*Colores fuertes para ver que funcionen las propiedades*/
         justify-content: space-around;
     }
+   
     #check-menu:checked ~ul{
         display: block;
     }
