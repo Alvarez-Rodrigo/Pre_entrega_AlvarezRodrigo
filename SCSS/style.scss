@@ -19,7 +19,7 @@ nav{
     .navbar{
         width: 100%;
         background-color: $fondoNav;
-        padding: 10px 20px;
+        padding: 10px 10px;
         position: sticky;
         top: 0;
         .superior{
@@ -27,7 +27,7 @@ nav{
             .barra-superior{
                 display: inline-block;
                 background-color: $fondoNav;
-                padding: 0 20px;
+                padding: 0 10px;
                 margin-left: 20px; 
             }
             ul a{

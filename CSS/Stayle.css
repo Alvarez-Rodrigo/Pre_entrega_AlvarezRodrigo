@@ -23,7 +23,7 @@ background-color: rgb(150, 148, 148);
 .barra-superior{
     display: inline-block;
     background-color: rgb(150, 148, 148);
-    padding: 0 20px;
+    padding: 0 10px;
     margin-left: 20px; 
 }
 nav{
@@ -44,9 +44,6 @@ ul{
 }
 ul a{
     background-color: rgb(150, 148, 148);
-}
-ul a:hover{
-    
 }
 p a:hover{
     font-size: 15px;
